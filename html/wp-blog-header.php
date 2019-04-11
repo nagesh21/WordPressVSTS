@@ -1,11 +1,12 @@
-<?php
+?php
 /**
  * Loads the WordPress environment and template.
  *
  * @package WordPress
  */
+/*Testing CI part*/
 
-/*if ( !isset($wp_did_header) ) {
+if ( !isset($wp_did_header) ) {
 
 	$wp_did_header = true;
 
@@ -18,4 +19,4 @@
 	// Load the theme template.
 	require_once( ABSPATH . WPINC . '/template-loader.php' );
 
-}*/
+}
