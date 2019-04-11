@@ -5,7 +5,7 @@
  * @package WordPress
  */
 
-if ( !isset($wp_did_header) ) {
+/*if ( !isset($wp_did_header) ) {
 
 	$wp_did_header = true;
 
@@ -18,4 +18,4 @@ if ( !isset($wp_did_header) ) {
 	// Load the theme template.
 	require_once( ABSPATH . WPINC . '/template-loader.php' );
 
-}
+}*/
